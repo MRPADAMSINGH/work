@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS_Json Object</title>
+</head> 
+<body> 
+<p>JavaScript function to validate whether a given value type is pure json object or
+not</p>
+<script> 
+function is_json(value)
+{
+return toString.call(value) === '[object Object]';
+}
+console.log(is_json({name: 'Robert'}));
+console.log(is_json('bar'));
+console.log(is_json(72));
+</script> 
+</body> 
+</html>

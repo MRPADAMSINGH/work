@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSTI Form</form></title>
+
+    <STYle>
+        body{
+            background-color: darkseagreen;
+        }
+        .top{
+            background-color: cornflowerblue;
+            text-align: center;
+            text-decoration: dotted
+        }
+
+        h3{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        /* input{
+            background-color: aquamarine;
+        } */
+
+        form{
+            text-align: left;
+        }
+        ::placeholder{
+            text-align: center;
+            font-style: italic;
+            color: rgb(128, 135, 133);
+        }
+        th:hover{
+            
+        }
+        
+    </STYle>
+</head>
+<body>
+   <div class="top">
+        <h1>NSTI MUMBAI</h1>
+   </div>
+
+   <div class="head">
+        <h3>Stundent Registration Form (all filds are mandatory)</h3>
+   </div> 
+
+   <div class="form">
+        <form>
+            <table>
+                <tr>
+                    <th><label for="file">Choose File</label></th>
+                    <th><input type="file"></th>
+                </tr>
+                <tr>
+                    <th><label for="text">Student Name</label></th>
+                    <th><input type="text" required="" placeholder="Student name"></th>
+                </tr>
+                <tr>
+                    <th><label for="text">Father Name</label></th>
+                    <th><input type="text" required="" placeholder="Enter Your Father Name"></th>
+                </tr>
+                <tr>
+                    <th><label for="text">Mother Name</label></th>
+                    <th><input type="text" required="" placeholder="Enter Your Mother Name"></th>
+                </tr>
+                <tr>
+                    <th><label for="text">Gender</label></th>
+                    <th>Male<input type="radio" name="gender"></th>
+                    <th>Female<input type="radio" name="gender"></th>
+                    <th>Other<input type="radio" name="gender"></th>
+                </tr>
+                <tr>
+                    <th><label for="text">Age</label> </th>
+                    <th><input type="numerical" required="" name="age" placeholder="18+ Required"></th>
+                </tr>
+                <tr>
+                    <th><label for="dob">DOB</label></th>
+                    <th><input type="date" required="" name="dob"></th>
+                </tr>
+                <tr>
+                    <th><label for="email">E-Mail</label></th>
+                    <th><input type="email" required="" name="email"></th>
+                </tr>
+                <tr>
+                    <th><label for="">Department</label></th>
+                    <th><select name="department">
+                        <option value="IBM">IBM</option>
+                        <option value="COPA">COPA</option>
+                        <option value="CSA">CSA</option></select></th>
+                </tr>
+                <tr>
+                    <th><label for="mobile">Mobile No</label></th>
+                    <th><input type="mobile" name="number" required></th>
+                </tr>
+            </table>
+
+        
+            <h3>Present Address</h3>
+            
+        <table> 
+            <tr>
+            <th><label for="country">Country</label></th>
+            <th><input type="text" name="country" required></th>
+            </tr>
+            <tr>
+                <th><label for="state">State</label></th>
+                <th><input type="text" name="state" required></th>
+            </tr>
+            <tr>
+            <th><label for="text">City</label></th>
+            <th><input type="text" name="city"></th>
+            </tr>
+            <tr>
+            <th><label for="number">ZIP Code</label></th>
+            <th><input type="number"></th>
+            </tr>
+            <tr>
+                <th><input type="submit"></th>
+                <th><input type="reset"></th>
+            </tr>
+        
+        </table>
+        
+        </form>
+        
+   </div>
+</body>
+</html>

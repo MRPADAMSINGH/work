@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        //while loop********
+        var i=11;
+        while (i<=15)
+        {
+            document.write(i+ "<br/>");
+            i++;
+        }
+    </script> -->
+
+    <!-- <script>
+        var i=21;
+            do{
+                document.write(i+ "<br/>");
+                i++;
+            }while(i<=25);
+
+    </script> -->
+
+    <!-- <script>
+        
+        while( let p=5; p<5; i++){
+            if (i<5){
+                document.write("value is less then 5")
+            
+            }
+            else(i>=5){
+                document.write
+            }
+        }
+    </script> -->
+
+    <h2>javascript for in loop</h2>
+    <p>the for in statement loops throught the perperties of an object.</p>
+    <p id="demo"></p>
+    <script>
+        const person={fname:"pglu", lname:"gmr", age:22};
+        let txt=""
+        for (let x in person){
+            txt+=person[x]+ "";
+        }
+        document.getElementById("demo").innerHTML=txt;
+    </script>
+</body>
+</html>

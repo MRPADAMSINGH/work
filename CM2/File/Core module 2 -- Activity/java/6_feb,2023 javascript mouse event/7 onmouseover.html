@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box" id="box1" onmouseover="myFunction()">
+        <p id="message"></p>
+        <p>Mouseover event triggered:
+        <span id="span_message">0</span>
+        times
+        </p>
+        <p>The Mouseover event gets fired every time the mouse enters the box or its child 
+       elements (here < p >).</p>
+        </div>
+        </div>
+        <script>
+        function myFunction() {
+        var box = document.getElementById("box1");
+        box.style.background = 'linear-gradient(45deg, red, blue)';
+        box.style.color = 'white';
+        document.getElementById("message").innerHTML = "The Mouseover Event is triggered.";
+        document.getElementById("span_message").innerHTML++;
+        }
+        </script>
+</body>
+</html>

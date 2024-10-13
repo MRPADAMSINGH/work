@@ -1,0 +1,15 @@
+header{
+    background-color: rgba(216, 148, 148, 0.703);
+    color: white;
+    text-indent: 10px;
+}
+p{
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: lowercase;
+    color: rgb(250, 3, 250);
+    background-color: aliceblue;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,154 @@
+Let's go through the questions one by one:
+
+1. Which of the following is not a machine learning algorithm?
+   - Answer: SVG   *
+
+2. A dataframe has two axes, where axes = 0 represents?
+   - Answer: Rows    *
+
+3. The supervised learning problems can be grouped as:
+   - Answer: Both (Classification problems and Regression problems)  *
+
+4. Using ndim, we can find?
+   - Answer: We can find the dimension of the array  *
+
+5. To extract the first three rows and three columns of a dataframe 'exp' which of the following is True:
+   - Answer: exp.iloc[0:3,0:3]  *
+
+6. Which of the following is not a supervised learning?
+   - Answer: PCA *
+
+7. Choose a disadvantage of decision trees among the following:
+   - Answer: Decision trees are prone to overfit
+
+8. Which plot is used to give statistical summary?
+   - Answer: Box plot *
+
+9. What is the correct syntax to create a NumPy array?
+   - Answer: np.array([4,5,6])    *
+
+10. What is the correct syntax to print the number 8 from the array below: arr = np.array([[1,2,3,4,5], [6,7,8,9,10])
+    - Answer: print(arr[1,2])  *
+
+11. What is the function to give color to a plot in seaborn?
+    - Answer: color_palette()  *
+
+12. Among the following options, identify the one which is not a type of learning.
+    - Answer: Semi unsupervised learning  *
+
+13. Which machine learning models are trained to make a series of decisions based on the rewards and feedback they receive for their actions?
+    - Answer: Reinforcement learning   *
+
+14. Find the syntax for importing seaborn.
+    - Answer: import seaborn as sns  *
+
+15. What is unsupervised learning?
+    - Answer: Neither feature nor the number of groups is known
+
+16. What is called the average squared difference between classifier predicted output and actual output?
+    - Answer: Mean squared error   *
+
+17. What is the purpose of the zeros() function used in NumPy array?
+    - Answer: To make a Matrix with all elements 0   *
+
+18. Identify the correct statement:
+    - Answer: The index of the dataframe can be a number, letter, or string.   *
+
+19. What is the purpose of NumPy in Python?
+    - Answer: Both (To do numerical calculations and To do scientific computing)   *
+
+20. Which of the following arrays is a two-dimensional (2-D) array?
+    - Answer: [[235][ 4 5 6][4 5 6]]   *
+
+21. What will be the output of print(df.loc[:])?
+    - Answer: Display all rows and columns     *
+
+22. What is the interface for manipulating the styles in seaborn?
+    - Answer: set_style()   *
+
+23. Which of the following is incorrect regarding Data Visualization?
+    - Answer: Visualizing large and complex data does not produce effective results.    *
+
+24. Among the following options identify the one which is false regarding regression.
+    - Answer: It discovers casual relationships
+
+25. Identify the type of learning in which labeled training data is used.
+    - Answer: Supervised learning   *
+
+26. Seaborn is based on Matplotlib.
+    - Answer: Data visualization    *
+
+27. In numpy, if a dimension is given as in a reshaping operation, the other dimensions are automatically calculated.
+    - Answer: Negative one
+
+28. A dataframe can only store homogeneous elements.
+    - Answer: False   *
+
+29. A dataframe object can be created using:
+    - Answer: All (Panda Series, Python List, Python Dictionary)  *
+
+30. Which of the following is not an attribute of a dataframe?
+    - Answer: transpose   *
+
+31. The plot method on Series and DataFrame is just a simple wrapper around:
+    - Answer: plt.plot()   *
+
+32. What is the term known as on which the machine learning algorithms build a model based on sample data?
+    - Answer: Training data   *
+
+33. To count the total number of elements in a dataframe, we use:
+    - Answer: size
+
+34. Which of the following option describes a pie chart?
+    - Answer: Contribution of individual values to a total value
+
+35. Identify the difficulties with the k-nearest neighbor algorithm.
+    - Answer: Both (Calculate the distance of the test case from all training cases and Curse of dimensionality)   *
+
+36. Which of the following can be used to add a new column in an existing dataframe:
+    - Answer: loc
+
+37. To import the pyplot module we can write:
+    - Answer: Import matplotlib.pyplot as plt  *
+
+38. To access the value of a dataframe using a column label, we can use:
+    - Answer: <dataframe object>.<column label>
+
+39. NumPy arrays can be:
+    - Answer: All of the above (indexed, Sliced, Iterated)  *
+
+40. The command to install Matplotlib library in Python is:
+    - Answer: pip install matplotlib   *
+
+41. Which of the following type of chart is not valid?
+    - Answer: Curve   *
+
+42. Data refers to graphical representation of data.
+    - Answer: Visualization   *
+
+43. Which of the following machine learning algorithm is based upon the idea of bagging?
+    - Answer: Random-forest   *
+
+44. What is the output of the following code? `import numpy as np y = np.array([[11, 12, 13, 14], [32, 33, 34, 35]]) print(y.ndim)`
+    - Answer: 2   *
+
+45. The interface of Matplotlib used for data visualization is:
+    - Answer: pyplot   *
+
+46. What is the output of the following code? `import numpy as np a = np.array([[1,2,3]]) print(a.shape)`
+    - Answer: (1,3)   *
+
+47. What is true about Machine Learning?
+    - Answer: All of the above (Machine Learning (ML) is the field of computer science, ML is a type of artificial intelligence that extracts patterns out of raw data by using an algorithm or method, The main focus of ML is to allow computer systems to learn from experience without being explicitly programmed or human intervention)   *
+
+48. Which of the following statement for creating a dataframe is valid?
+    - Answer: df= pd.DataFrame(dict1    *
+
+49. Machine learning is a subset of which of the following.
+    - Answer: Artificial intelligence   *
+
+50. Identify the successful applications of ML.
+    - Answer: All of the above (Learning to classify new astronomical structures, Learning to recognize spoken words, Learning to drive an autonomous vehicle)  
+
+51. Which of the following value is provided by the kind keyword for barplot?
+    - Answer: bar    *

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ <title>Create a button and a textbox. On click of the button the text written in text box should 
+display on the button</title>
+
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+ <script type="text/javascript">
+ $(function () {
+ $("input[name=btnPassport]").click(function () {
+ if ($(this).val() == "Yes") {
+ $("#dvPassport").show();
+ } else {
+ $("#dvPassport").hide();
+ }
+ });
+ });
+ </script>
+</head>
+<body>
+ <div class="container">
+ <h3>Create a button and a textbox. On click of the button the text written in text box should 
+display on the button</h3>
+ <span>Do you have Passport?</span>
+ <input type="button" value="Yes" name="btnPassport" />
+ <input type="button" value="No" name="btnPassport" />
+ <hr />
+ 
+
+ <div id="dvPassport" style="display: none">
+ Passport Number:
+ <input type="text" id="txtPassportNumber" />
+ </div>
+ </div>
+</body>
+</html>

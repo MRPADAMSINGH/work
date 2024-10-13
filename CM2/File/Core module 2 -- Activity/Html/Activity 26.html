@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+width: 100px;
+height: 100px;
+background: rgba(235, 135, 135, 0.448);
+transition: width 2s;
+margin-top: 10px;
+position:relative;
+animation-name: opticity;
+animation-duration: 5s;
+}
+div:hover {
+width: 300px;
+background-color: rgb(243, 15, 15);
+}
+span:hover{
+    color:white ;
+}
+span{
+    font-size: 50px;
+    text-align: center;
+   
+}
+@keyframes opticity{
+    100%{opacity: 0;}
+}
+</style>
+</head>
+<body>
+
+<h1>The transition Property</h1>
+<p>Hover over the div element below, to see the transition effect:</p>
+<div><span>Pglu</span></div>
+</body>
+</html>

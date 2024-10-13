@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Remove variable</p>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        let cities = ["Mumbai", "New York", "Paris", "Sydney"];
+        document.getElementById("p1").innerHTML = cities;
+
+        let rmcities = cities.pop();
+        document.getElementById("p2").innerHTML = cities;
+        document.getElementById("p3").innerHTML = rmcities;
+
+    </script> -->
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+         let cities = ["Mumbai", "New York", "Paris", "Sydney"];
+        document.getElementById("p1").innerHTML = cities;
+
+        let rmcities = cities.unshift();
+        document.getElementById("p2").innerHTML = cities;
+        document.getElementById("p3").innerHTML = rmcities;
+    </script>
+</body>
+</html>

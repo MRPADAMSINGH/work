@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check HTML</title>
+</head>
+<body>
+<p>JavaScript function to check whether a given value is html or not</p>
+<script> 
+function is_html(str)
+{
+regexp = /<([a-z]+) *[^/]*?>/;
+if (regexp.test(str))
+{
+return true;
+}
+else
+{
+return false;
+}
+}
+console.log(is_html('<h1>'));
+console.log(is_html(''));
+console.log(is_html('.selector'));
+</script> 
+</body> 
+</html>

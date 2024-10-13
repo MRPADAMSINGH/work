@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ 
+ <title>App P tags</title>
+</head>
+<body>
+    <h4>P1</h4> <h6>All p tags that have no children, but only if they don't have a class of ignore</h6>
+ <div class="container">
+ <h3>Task -1<br>All p tags that have no children, but only if they don't have a class of ignore 
+will hide when
+ click on bellow button
+ </h3>
+ <button type="button" name="click" id="click">Click me</button>
+ </div>
+ <div class="container">
+ <p>
+ <h4>1.p tag having one child</h4>
+ </p>
+ <p>2. p tag don't have any child</p>
+ <p>
+ <h4 class="ignore">3.p tag have child with class ignore</h4>
+ </p>
+ <p>4.p tag don't have any child</p>
+ <p class="ignore">5.p tag don't have any child but have class ignore</p>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+ <script>
+ $(document).ready(function(){
+ $('#click').click(function(){
+ $('p:not(.ignore)').hide();
+ });
+ });
+ </script>
+</body>
+</html>

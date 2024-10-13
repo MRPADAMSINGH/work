@@ -1,0 +1,19 @@
+Topics of Elective Module 1.
+
+1. Cloud introduction, 
+2. Cloud benefit, 
+3. Cloud types,
+4. Cloud service delivery model,
+5. IBM Cloud features, 
+6. IBM Cloud products, 
+7. data center regions availability Zone, Single zone, multi zone.
+8. compute, networking, storage, scalability, elasticity, fault tolerance, reliability, durability.
+9. IBM cloud block storage.
+10. VPC virtual private cloud.
+11. cloud databases.
+12. cloud computing security.
+13. fundamental of Docker, Kubernetes and DevOps.
+14. Cloud best practices shared responsibility model.
+15. Best practices for cloud security.
+
+I hope you all have written these topics very carefully, right?

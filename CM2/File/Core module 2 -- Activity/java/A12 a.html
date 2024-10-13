@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Crete a function that user an alert to display the hostname of the current url when the button is clicked.
+        <h1>The Window Object</h1>
+
+        <h2>The alert() Method</h2>
+
+       <p>Click the button to alert the hostname of the current URL.</p> <!--Paragraph Element-->
+        <button id="inp" style="color:red;font-weight: bold;border:2px solid 
+       blue;">Location</button> 
+
+        <script> //Javascript Starts
+
+        function disp() {
+        window.alert(location.hostname);
+       window.alert(location.pathname);
+       
+        }
+        let button=document.getElementById("inp");
+        button.onclick=disp;
+        </script> 
+       </html>
+</body>
+</html>
