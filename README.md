@@ -14,6 +14,7 @@ This repository contains materials and files related to various modules and proj
 
 ## Online Access
 You can access the contents of this repository online via the following OneDrive link:
+4 digit pass
 
 [OneDrive Link](https://dusolorg-my.sharepoint.com/:f:/g/personal/21-1-42-023272_sol-du_ac_in/EqUbEvcyK-FAiJYqvIS1uQIBZ8t9CgJp_Mz10Jvm2RF6vQ?e=2qV29B)
 
