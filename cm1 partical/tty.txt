@@ -1,0 +1,8 @@
+tty
+show the terminal id
+
+who
+
+w
+
+this all is cmd.

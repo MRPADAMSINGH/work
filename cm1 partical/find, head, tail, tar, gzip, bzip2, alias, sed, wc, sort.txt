@@ -1,0 +1,36 @@
+find
+use for the find the the file into the directory
+
+head
+show the first 10 line fo the file content
+
+tail
+
+show the last 10 lines of the file content
+
+tar
+
+tar -cvf archive.tar file.txt
+it create the Archives file inta tarball witout compression
+
+gzip
+Compresses fiels using the gzip
+
+bzip2
+compress file using the bzip2 algorithm more compress then gzip
+
+alias
+alias ll='ls -l'
+this cmd use for the declare custom cmd.
+
+sed
+sed 's/helo/hi/g' file.txt
+file cmd use to replace the world into the file with new
+
+wc
+count the line and world and characters
+
+
+
+sort
+do the content into the accending order like a to z

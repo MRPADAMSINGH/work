@@ -1,0 +1,12 @@
+1. touch file.txt  (This cmd is use for the creating the file)
+2. echo "Hello World" (this cmd is use to display the text)
+3. clean (this cmd is use for the clean the terminal)
+4. ls (this cmd is use for the ls to disply the dir or file)
+5. dir (this is use for the show the directory )
+6. mkdir (this cmd is use for the make directory)
+7. cat> file.txt (after enter this cmd you have to add any text into the file) then hit enter and save the file through the ctrl + D.
+then use the cat file.txt to show the text or content of the file.
+8. rmdir folder (folder is dir)remove the directory 
+9. rm file3.txt (use fir the remove the file
+10. cp cmd copy the content of the file 
+11. mv (move and rename the file)

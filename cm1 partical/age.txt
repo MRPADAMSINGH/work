@@ -1,0 +1,19 @@
+1. gedit age.sh
+2. input this code
+#!/bin/bash
+
+# Prompt the user for their age
+read -p "Enter your age: " age
+
+# Check the age and print the corresponding message
+if [ "$age" -lt 18 ]; then
+    echo "You are under 18! You are a minor."
+elif [ "$age" -ge 18 ] && [ "$age" -lt 60 ]; then
+    echo "You are an adult."
+else
+    echo "You are a senior citizen."
+fi
+
+3. chmode +x age.sh
+
+

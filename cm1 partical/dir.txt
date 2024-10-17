@@ -1,0 +1,5 @@
+1. go to the terminal 
+2. mkdir Projectfiles
+3. cd Projectfiels
+4. touch file1.txt file2.txt file3.txt file4.txt file5.txt
+5. ls (this cmd use to dhow all the file and dir.)

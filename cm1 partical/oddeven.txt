@@ -1,0 +1,20 @@
+1. Open the terminal.
+2. gedit oddeven.sh  (oddeven is the file name and the .sh is file extension )
+3. enter this code into the shell file.
+
+4.
+#!/bin/bash
+
+# Ask the user for a number
+read -p "Enter a number: " num
+
+# Check if the number is even or odd using modulus
+if (( num % 2 == 0 )); then
+    echo "$num is an even number."
+else
+    echo "$num is an odd number."
+fi
+
+
+5. chmod +x oddeven.sh
+6. ./oddeven.sh

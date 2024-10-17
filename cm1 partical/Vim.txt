@@ -1,0 +1,7 @@
+Vim
+install the vim
+
+vim vim.txt
+press the I for the insert the input into the file.
+for the exit
+press esc then wq and hit enter
